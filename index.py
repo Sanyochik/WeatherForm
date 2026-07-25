@@ -7,7 +7,7 @@ hubform = form.CTk()
 hubform.title("Hub")
 hubform.geometry("600x400")
 
-buttonweather = form.CTkButton(hubform, text="Узнать текущую погоду", command=MainController.weather)
+buttonweather = form.CTkButton(hubform, text="Узнать температуру", command=MainController.weather)
 buttonweather.pack(pady=10)
 
 hubform.mainloop()
