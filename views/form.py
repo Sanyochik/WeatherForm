@@ -7,7 +7,7 @@ def weatherForm(weatherAPI):
 
     def clickFunction():
         city = weatherAPI.getWeather(entry.get())
-        label_result.configure(text=f"Текущая погода в городе: {city}!")
+        label_result.configure(text=city)
 
     root = ctk.CTk()
     root.title("Погода")
